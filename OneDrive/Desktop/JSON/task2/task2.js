@@ -8,7 +8,7 @@ function fetchData(){
     .then(res => res.json())
     .then(data => {setTimeout(() => {
         displayData(data);
-    }, 4000); // Adjust time as needed (3s)
+    }, 4000); 
 })
         
         
